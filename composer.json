@@ -1,0 +1,17 @@
+{
+    "name": "iggyvolz/kazakhstan-warner",
+    "description": "Warns users from Kazakhstan that their internet connection is not secure",
+    "license": "Public Domain",
+    "authors": [
+        {
+            "name": "Ryan Volz",
+            "email": "iggyvolz@gmail.com"
+        }
+    ],
+    "require": {
+        "tabgeo/country": "^1.0"
+    },
+    "autoload": {
+        "files": ["src/kazakhstan-warner/KazakhstanWarner.php"]
+    }
+}
